@@ -78,26 +78,6 @@ The model exhibits exceptional discriminative ability, achieving an Area Under t
 
 ### Figures
 
-<p align="center">
-  <img src="assets/roc_curve.png" alt="ROC Curve - AUC = 0.9887" width="700"/>
-</p>
-<p align="center"><em>Figure 1: ROC Curve — AUC = 0.9887</em></p>
-
-<p align="center">
-  <img src="assets/pr_curve.png" alt="Precision-Recall Curve - AP = 0.9580" width="550"/>
-</p>
-<p align="center"><em>Figure 2: Precision-Recall Curve — AP = 0.9580</em></p>
-
-<p align="center">
-  <img src="assets/training_history.png" alt="Training History - Loss and Accuracy" width="550"/>
-</p>
-<p align="center"><em>Figure 3: Training History — Loss and Accuracy</em></p>
-
-<p align="center">
-  <img src="assets/probability_histogram.png" alt="Histogram of Predicted Probabilities" width="700"/>
-</p>
-<p align="center"><em>Figure 4: Histogram of Predicted Probabilities</em></p>
-
 The histogram of predicted probabilities shows a clear bimodal distribution. Normal traffic is heavily clustered near probability 0.0, while DDoS traffic is heavily clustered near 1.0. The overlap in the middle (around the 0.77 threshold) represents the "stealthy" DDoS flows that mimic normal behavior.
 
 ---
